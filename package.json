@@ -1,0 +1,30 @@
+{
+  "name": "Argila",
+  "version": "1.0.0",
+  "description": "WebSite that supports the activity of Argila, a tile studio.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tile",
+    "azulejo",
+    "ceramics",
+    "ceramica"
+  ],
+  "author": "Fernando Pires",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "loggly": "^1.0.8",
+    "mongodb": "^2.0.46",
+    "nodemailer": "^1.4.0",
+    "nodemailer-smtp-transport": "^1.0.3",
+    "validator": "^3.40.1"
+  },
+  "engines": {
+    "node": "0.10.32",
+    "npm": "2.1.x"
+  }
+}

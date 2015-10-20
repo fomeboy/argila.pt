@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'simplifica_local';
+  font-style: normal;
+  font-weight: 400;
+  src: local('simplifica_local'), url(font/simplifica.woff) format('woff');
+}
+
+
+::-webkit-input-placeholder {
+ color: #B0A999;
+}
+:-moz-placeholder { 
+ color: #B0A999;
+}
+::-moz-placeholder { 
+ color: #B0A999;
+} 
+:-ms-input-placeholder { 
+ color: #B0A999;
+} 
+
+
+ 

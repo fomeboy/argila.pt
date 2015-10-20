@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Argila - azulejos</title>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <!--disables scale on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+        <!-- shims for backwards compatibility -->
+        <script type="text/javascript" src="src/libs/functionPrototypeBind.js"></script>
+        <script type="text/javascript" src="src/libs/classList.js"></script>
+        <script type="text/javascript" src="src/libs/requestAnimationFrame.js"></script>
+        
+        <!-- module loader -->
+        <script type="text/javascript" src="src/libs/require.js"></script>
+        
+        <!-- famo.us -->
+        <link rel="stylesheet" type="text/css" href="src/libs/famous.css" />
+        <script type="text/javascript" src="src/libs/famous.min.js"></script>
+        
+       
+        <!-- app code -->
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+        <script type="text/javascript">
+            require.config({
+                baseUrl: './src'
+            });
+            require(['main']);
+        </script>
+    </head>
+    <body></body>
+</html>

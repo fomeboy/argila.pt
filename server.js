@@ -74,7 +74,7 @@ app.post('/save_contact', CORSFilter, function (req, res) {
     
     
     transporter.sendMail({
-        from: 'info@argila.pt',
+        from: process.env.EMAIL_USER,
         to: email,
         subject: 'Contacto / Enquire',
         text: 'Agradecemos o seu contacto. Responderemos em breve.\n\n Thank you for your contact. We will reply very soon.\n\nArgila azulejos - Handmade in Portugal'
@@ -83,13 +83,13 @@ app.post('/save_contact', CORSFilter, function (req, res) {
     
     transporter.sendMail({
         from: email,
-        to: 'info@argila.pt',
+        to: process.env.EMAIL_USER,
         subject: 'Contact Received',
         text: 'Name: ' + name + '\nEmail: ' + email + '\nMsg:\n ' + msg
     }, function (err, info) {
         if (err) {
             emailFlag = false;
-            client.log('Error sending mail to info@argila.pt:');
+            client.log('Error sending mail to ' + process.env.EMAIL_USER);
         }
         
         mongo.connect(mongoLabURI, function (err, db) {

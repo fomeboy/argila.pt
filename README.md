@@ -1,1 +1,0 @@
-A study on "elastic design" where elements of a webpage adapt proportionately and positionally to the orientation and resolution of the screen. Server runs on node.js and express. MongoLab SAS used to store persistent data. Client developed in famo.us. Hosted in Heroku.

@@ -14,9 +14,9 @@ define(function (require, exports, module) {
                     'EN': '',
                     'PT': ' Pattern repeat [2x2]'
                 },
-            pattern1: [[{rot: '2'}, {rot: '1'}], [{rot: '1'}, {rot: '2'}]],
-            pattern2: [[{rot: '0'}, {rot: '2'}], [{rot: '2'}, {rot: '0'}]],
-            pattern3: [[{rot: '2'}, {rot: '1'}], [{rot: '3'}, {rot: '0'}]],
+            pattern1: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
+            pattern2: [[{rot: '0'}, {rot: '0'}], [{rot: '0'}, {rot: '0'}]],
+            pattern3: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
             imgUrl: 'img/halfCircle.svg'
         },
         
@@ -31,18 +31,9 @@ define(function (require, exports, module) {
                     'EN': '',
                     'PT': ' Pattern repeat [4x4]'
                 },
-            pattern1: [[{rot: '2'}, {rot: '3'}, {rot: '3'}, {rot: '0'}],
-                       [{rot: '2'}, {rot: '1'}, {rot: '1'}, {rot: '0'}],
-                       [{rot: '3'}, {rot: '0'}, {rot: '2'}, {rot: '3'}],
-                       [{rot: '1'}, {rot: '0'}, {rot: '2'}, {rot: '1'}]],
-            pattern2: [[{rot: '0'}, {rot: '2'}, {rot: '3'}, {rot: '3'}],
-                       [{rot: '0'}, {rot: '2'}, {rot: '1'}, {rot: '1'}],
-                       [{rot: '3'}, {rot: '3'}, {rot: '0'}, {rot: '2'}],
-                       [{rot: '1'}, {rot: '1'}, {rot: '0'}, {rot: '2'}]],
-            pattern3: [[{rot: '3'}, {rot: '0'}, {rot: '2'}, {rot: '3'}],
-                       [{rot: '1'}, {rot: '0'}, {rot: '2'}, {rot: '1'}],
-                       [{rot: '2'}, {rot: '3'}, {rot: '3'}, {rot: '0'}],
-                       [{rot: '2'}, {rot: '1'}, {rot: '1'}, {rot: '0'}]],
+            pattern1: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
+            pattern2: [[{rot: '0'}, {rot: '0'}], [{rot: '0'}, {rot: '0'}]],
+            pattern3: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
             imgUrl: 'img/halfCircleComp1.svg'
         },
         
@@ -58,13 +49,9 @@ define(function (require, exports, module) {
                     'EN': '',
                     'PT': ' Pattern repeat&#160;&#160;Left [2x2]&#160;&#160;Middle [4x4]&#160;&#160;Right [2x2]'
                 },
-            pattern1: [[{rot: '2'}, {rot: '0'}], [{rot: '0'}, {rot: '2'}]],
-            pattern2: [[{rot: '3'}, {rot: '3'}, {rot: '0'}, {rot: '2'}],
-                       [{rot: '1'}, {rot: '1'}, {rot: '0'}, {rot: '2'}],
-                       [{rot: '0'}, {rot: '2'}, {rot: '3'}, {rot: '3'}],
-                       [{rot: '0'}, {rot: '2'}, {rot: '1'}, {rot: '1'}]
-                      ],
-            pattern3: [[{rot: '1'}, {rot: '2'}], [{rot: '0'}, {rot: '3'}]],
+            pattern1: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
+            pattern2: [[{rot: '0'}, {rot: '0'}], [{rot: '0'}, {rot: '0'}]],
+            pattern3: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
             imgUrl: 'img/linhasCurvas.svg'
         },
         
@@ -79,9 +66,9 @@ define(function (require, exports, module) {
                     'EN': '',
                     'PT': ' Pattern repeat [2x2]'
                 },
-            pattern1: [[{rot: '2'}, {rot: '1'}], [{rot: '3'}, {rot: '0'}]],
-            pattern2: [[{rot: '2'}, {rot: '1'}], [{rot: '3'}, {rot: '0'}]],
-            pattern3: [[{rot: '2'}, {rot: '1'}], [{rot: '3'}, {rot: '0'}]],
+            pattern1: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
+            pattern2: [[{rot: '0'}, {rot: '0'}], [{rot: '0'}, {rot: '0'}]],
+            pattern3: [[{rot: '1'}, {rot: '1'}], [{rot: '1'}, {rot: '1'}]],
             imgUrl: 'img/squareGlimpse.svg'
         }
     ];

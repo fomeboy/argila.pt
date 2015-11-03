@@ -62,7 +62,7 @@ CORSFilter = function (req, res, next) {
 
 
 
-app.post('/save_contact', CORSFilter, function (req, res) {
+app.post('/insert_contact', CORSFilter, function (req, res) {
     "use strict";
     
     

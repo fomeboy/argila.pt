@@ -339,7 +339,7 @@ define(function (require, exports, module) {
                     this.submitInput.setValue(msgSending);
                     canSend = false;
                     
-                    xhr('save_contact', 'POST', sendMsg,
+                    xhr('insert_contact', 'POST', sendMsg,
                         function () {
                             this.nameInput.setValue('');
                             this.emailInput.setValue('');
